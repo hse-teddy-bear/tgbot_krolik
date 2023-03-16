@@ -10,7 +10,7 @@ from telebot import types
 import matplotlib.pyplot as plt
 from PIL import Image
 from datetime import date
-bot = telebot.TeleBot("1799078640:AAFsJy-RhRDhZHNnXJiAObBqYIEj3xNnTr0")
+bot = telebot.TeleBot("secret_key")
 
 @bot.message_handler(commands=['start'])
 def send_keyboard(message, text="Привет! Поинвестируем?"):
